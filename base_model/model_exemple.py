@@ -1,8 +1,8 @@
-from ..database.task_db import BaseModel
+from .BaseModelFromDatabase import BaseModel
 from datetime import datetime
 from peewee import (DateTimeField, TextField, IntegerField)
-    
-class TaskModel(BaseModel):
+
+class ModelExemple(BaseModel):
     
     token = TextField()
     id = TextField()
@@ -11,5 +11,6 @@ class TaskModel(BaseModel):
     attemps = IntegerField(default=0)
     error = TextField(default="")
     created = DateTimeField(default=datetime.now)
+
 
 
