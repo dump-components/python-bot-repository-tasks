@@ -16,7 +16,7 @@ data = {"token": "1517961|LEzkvaA09ACGzFSQAy1Vc3JGOcFXH6aiYVfm07cs", "id": uuid4
 repository.save_data_task(data)
 
 
-'''Buscando tarefa do banco de dados, caso não exista tarefa get_task retorna None para uma validação, caso uma exceção occora,
+'''Buscando tarefa do banco de dados, caso não exista tarefa get_task retorna None para uma validação, caso uma exceção ocorra,
 significará que a tarefa buscada não possui mais tentativas a serem feitas'''
 
 try:
