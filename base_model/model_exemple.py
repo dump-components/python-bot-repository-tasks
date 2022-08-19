@@ -12,5 +12,3 @@ class ModelExemple(BaseModel):
     error = TextField(default="")
     created = DateTimeField(default=datetime.now)
 
-
-
